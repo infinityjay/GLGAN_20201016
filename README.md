@@ -23,12 +23,12 @@ checkpoints为当前保存的模型是训练4000后较为稳定的模型可以�
 other_checkpoints为其他训练次数保存的模型  
 
 # 3.程序文件功能
-architecture.py 定义了构建网络中用到的几个函数  
-config.py 定义了一些参数的格式、具体数值以及解释说明  
-cut_test.py 为批量mask后补全图片的程序并且可以保存mask过程中裁剪出来图片以及补全后同样位置裁剪出来的图片  
-download.py 下载模型的程序，但是没有用到  
-network.py 为网络构建程序，在进行train和test的时候因为placeholder的原因，需要修改  
-ops.py 为传入network.py中的几个读入数据的函数  
-train.py为训练程序  
-test.py为手动mask时的测试程序  
-plot.py、plot2.py都为绘制不同loss图的程序  
+`architecture.py` 定义了构建网络中用到的几个函数  
+`config.py` 定义了一些参数的格式、具体数值以及解释说明  
+`cut_test.py` 为批量mask后补全图片的程序并且可以保存mask过程中裁剪出来图片以及补全后同样位置裁剪出来的图片  
+`download.py` 下载模型的程序，但是没有用到  
+`network.py` 为网络构建程序，在进行train和test的时候因为placeholder的原因，需要修改  
+`ops.py` 为传入network.py中的几个读入数据的函数  
+`train.py`为训练程序  
+`test.py`为手动mask时的测试程序  
+`plot.py`、`plot2.py`都为绘制不同loss图的程序  
