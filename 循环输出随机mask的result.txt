@@ -1,0 +1,8 @@
+1、ops.py
+load_test_data  paths 路径改为需要测试的路径
+
+2、network.py
+line 21  使用load_test_data
+line 23-25 注释single_...
+line 53-56 注释两行 含single_...
+
