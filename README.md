@@ -19,8 +19,8 @@ manual_res为补全之后的数据集
 loss_plot文件夹中包含有不同训练参数和不同训练次数对应的三个loss  
 其中c_loss为补全网络损失,d_loss为判别器损失（基本不画数据量小）,g_loss为全局损失
 
-# 2.固定下来的模型
-checkpoints(https://figshare.com/s/41e72d6006dfb50d8cf0)为当前保存的模型是训练4000后较为稳定的模型可以直接调用对图片进行补全  
+# 2.固定下来的模型 
+checkpoints (https://figshare.com/s/41e72d6006dfb50d8cf0) 为当前保存的模型是训练4000后较为稳定的模型可以直接调用对图片进行补全  
 other_checkpoints为其他训练次数保存的模型  
 
 # 3.程序文件功能
