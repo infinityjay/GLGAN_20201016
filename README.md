@@ -1,3 +1,4 @@
+# papper地址：https://doi.org/10.1029/2020JA028418
 # 1.数据集说明
 (数据存储在4TU.datasets https://figshare.com/s/f5ce43c6b1d60b984dae)
 ## 1.1 训练过程
